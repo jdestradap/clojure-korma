@@ -1,6 +1,4 @@
-(ns meetup-clojure-third.core)
+(ns meetup-clojure-third.core
+  (:require [meetup-clojure-third.entities.core :refer :all]))
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(user-name)
