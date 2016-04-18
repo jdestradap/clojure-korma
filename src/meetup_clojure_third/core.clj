@@ -1,5 +1,4 @@
-(ns meetup-clojure-third.core
-  (:gen-class))
+(ns meetup-clojure-third.core)
 
 (defn -main
   "I don't do a whole lot ... yet."
