@@ -1,4 +1,10 @@
 (ns meetup-clojure-third.core
-  (:require [meetup-clojure-third.entities.core :refer :all]))
+  (:require [meetup-clojure-third.entities.core :as entity]))
 
-(user-name)
+(defn -main
+  "I don't do a whole lot ... yet."
+  [& args]
+  (entity/user-name))
+
+
+
